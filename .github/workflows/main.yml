@@ -1,16 +1,6 @@
 name: xsdba Testing Suite
 
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - .cruft.json
-      - CHANGELOG.rst
-      - README.rst
-      - pyproject.toml
-      - tests/test_xsdba.py
-      - src/xsdba/__init__.py
   pull_request:
 
 concurrency:
