@@ -4,15 +4,7 @@
 # or to provide custom queries or build logic.
 name: "CodeQL Advanced"
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  schedule:
-    - cron: '36 9 * * 1'
+on: workflow_dispatch
 
 permissions:
   contents: read
